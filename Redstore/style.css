@@ -1,0 +1,395 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 75%;
+    font-family: sans-serif;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+    padding: 0 25px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}nav ul li{
+    display: inline-block;
+    padding-right: 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #555;
+    font-weight: bold;
+    color:darkslategray;
+
+}
+
+nav ul li a::after{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10px;
+    background-color:#ff523b;
+    height: 5px;
+}
+nav ul li a:hover{
+    color: crimson;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img{
+    width: 100%;
+    padding: 45px 0;
+}
+.col-2 h1{
+    font-size: 4.5rem;
+}
+.col-2 p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+margin: 25px 0;
+}
+.col-2 a{
+    font-size: 1.7rem;
+    border-radius: 20px;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+.categorie{
+    margin: 70px auto;
+    max-width: 1200px;
+
+}
+.col-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.col-3 img{
+    width: 100%;
+
+}
+.col-3 img :hover{
+    width: 500px;
+}
+.smallcontainer{
+    max-width: 1200px;
+    margin: 70px auto;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 150px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.col-4 img{
+    width: 100%;
+ margin-bottom: 15px;
+}
+.col-4 img:hover{
+width: 250px;
+}
+.title{
+    display: block;
+    text-align: center;
+    margin: 0 auto 8px;
+    
+
+}
+.title1{
+    width: 240px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    margin-bottom: 60px;
+}
+.title2{
+    width: 300px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 20px;
+    position: relative;
+    left: 37%;
+    margin-bottom: 60px;
+}
+.title{
+    font-size: 2.5rem;
+}
+.col-4 h4{
+    font-size: 1.6rem;
+
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    font-size: 1.7rem;
+    color: orange;
+}
+.col-4 p{
+    font-size: 1.3rem;
+}
+.smallcontainer .row{
+    margin-bottom: 70px;
+}
+.banner{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin: 30px 0;
+    padding: 80px 0;
+}
+.exclusive{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-5{
+    flex-basis: 50%;
+    padding-left: 10px;
+}
+#col-5{
+    display: block;
+    text-align: right;
+    padding-right: 50px;
+}
+.col-5 h4{
+    font-size: 2.3rem;
+    font-weight: bold;
+    
+}
+.col-5 h1{
+    font-size: 4rem;
+    padding: 18px 0;
+    font-weight: bold;
+}
+.col-5 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.col-5 a{
+    font-size: 1.7rem;
+    border-radius: 20px;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+    line-height: 6rem;
+}
+.testimonial{
+    padding-top: 100px;
+
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 15px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    flex: 1 1 30%;
+
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+#row{
+    text-align: center;
+    
+    padding: 15px;
+    min-width: 300px;
+    flex-wrap: wrap;
+    flex: 1 1 33%;
+}
+.testimonial .smallcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .testimonial .rating{
+    text-align: center;
+    display: block;
+}
+.testimonial h3{
+    text-align: center;
+    font-size: 2.2rem;
+    color: black;
+}
+.testimonial p{
+    font-size: 1rem;
+    display: block;
+    color: #555;
+}
+.testimonial .col-3{
+    display: block;
+    text-align: center;
+}
+#col-5{
+    flex-basis: 20%;
+    flex: 1 1 20%;
+    padding: 30px 10px;
+}
+#col-5 img{width: 100%;
+
+}
+.footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+#col-4 p{
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 2rem;
+}
+.footer p{
+    color: #555;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#col-1,#col-2,#col-3,#col-4 h2{
+color: #fff;
+font-size: 1.8rem;
+}
+#col-1,#col-2,#col-3,#col-4 p{
+    font-size: 1.4rem;
+}
+#col-1{
+    flex-basis: 30%;
+    line-height: 50px;
+    flex: 1 1 30%;
+
+}
+#col-2{
+    flex-basis: 30%;
+    padding-bottom: 20px;
+}
+#col-2 img{
+    width: 150px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#col-2 p{
+    padding-top: 5px;
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+#col-1 img{
+    width: 120px;
+    padding-right: 5px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+#col-3{
+    flex-basis: 20%;
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 20px;
+    flex: 1 1 20%;
+
+}
+#col-3 .nav ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    color: #555;
+    padding-bottom: 5px;
+    
+}
+#col-4{
+    flex-basis: 20%;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    flex: 1 1 20%;
+}
+#col-4 .nav ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    color: #555;
+    padding-bottom: 5px;
+}
+.fa-star-half-stroke{
+    color: orange;
+    font-size: 1.6rem;
+}
+.fa-bars{
+    display: none;
+}
+nav ul li{
+    font-size: 1.5rem;
+}
+nav ul li a:active{
+    display: block;
+}
+
+
+
+
+
+@media (max-width:850px) {
+    html{
+        font-size: 50%;
+    }
+
+    .row{
+        margin-left: 15%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .header{
+        padding-left: 5px;
+    }
+    .container{
+        padding-left: 0px;
+    }
+ 
+}
